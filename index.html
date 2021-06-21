@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VidaFrutas</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">VidaFrutas</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Produções</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Redes Sociais
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Facebook</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Instagram</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Digite aqui"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-danger" type="submit">
+              Pesquisar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/581-pt-br.jpg"
+            class="d-block w-100 h-30"
+            alt="imagem 1"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/exportacao-de-frutas.png"
+            class="d-block w-100"
+            alt="imagem 2"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/unnamed.jpg"
+            class="d-block w-100"
+            alt="imagem 3"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <hr .p-4 />
+    <div class="container">
+      <h3 class="text-center text-danger my-5">{ Nossos Produtos }</h3>
+    </div>
+    <hr .p-4 />
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="./assets/maca.jpg" class="card-img-top" alt="maçã" />
+            <div class="card-body">
+              <h5 class="card-title">Maçã</h5>
+              <p class="card-text">
+                Comer maçã também faz bem para o cérebro e para o coração.
+                Diminui o risco de diabetes, afasta a prisão de ventre, previne
+                o câncer, combate a asma, fortalece o sistema imunológico...
+              </p>
+              <a href="#" class="btn btn-primary">R$ 7,80 o kilo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="./assets/pera.jpg" class="card-img-top" alt="pêra" />
+            <div class="card-body">
+              <h5 class="card-title">Pêra</h5>
+              <p class="card-text">
+                Comer pêra ajuda no funcionamento do intestino, faz bem para o
+                coração, combate inflamações, melhora o controle glicêmico,
+                aumenta a saciedade ...
+              </p>
+              <a href="#" class="btn btn-primary">R$ 6,50 o kilo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./assets/banana-nanica.png"
+              class="card-img-top"
+              alt="banana"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Banana</h5>
+              <p class="card-text">
+                A banana possui fibras, potássio, vitaminas, antioxidantes e
+                carboidratos. A fruta previne doenças cardíacas, faz bem para a
+                digestão, aumenta a saciedade e reduz câimbras.
+              </p>
+              <a href="#" class="btn btn-primary">R$ 2,30 o kilo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr .p-4 />
+    <div class="container">
+      <h3 class="text-center text-danger my-5">{ Nossas Produções }</h3>
+    </div>
+    <hr .p-4 />
+    
+    <div class="row">
+        <div class="col-6"><div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRduc2c-coWt3z7dPljbtbM-CBpHpf_VfRvSnqURBOvaYwZoseI0sLzEZiBoXP3_79G5Pyd9nE&usqp=CAc" class="card-img-top" alt="..." />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Mix de Frutas Secas</h5>
+                  <p class="card-text">
+                    castanha de caju, uva passa branca, granulado de maracujá (maçã desidratada, polpa de maracujá desidratada (polpa de maracujá e maltodextrina), açúcar demerara, ácido cítrico), abacaxi desidratado e banana passa. Contém Glúten
+                  </p>
+                  <p class="card-text">
+                    <a href="#" class="btn btn-primary">R$ 7,40</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div></div>
+        <div class="col-6"> <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfOI3XaYEMpZJRUFA8zQpY1jdgj-sIck1B1UXzrSLkeHx02B904Z0ZZ8Ujv4dA7kJXjAgQB6e4&usqp=CAc" class="card-img-top" alt="..." />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Geléia de Frutas Vermelhas</h5>
+                  <p class="card-text">
+                    Elaborada através da concentração de morangos, amoras e framboesas frescas e maduras, a geleia recebe em sua formulação suco de maçã concentrado. Possui um alto padrão qualitativo, sem adição de conservantes nem sacarose (açúcar).
+                  </p>
+                  <p class="card-text">
+                    <a href="#" class="btn btn-primary">R$ 27,80</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div></div>
+      </div>
+    </div>
+    <hr .p-4 />
+    <div class="container">
+      <h3 class="text-center text-danger my-5">{ Dicas na Cozinha }</h3>
+    </div>
+    <hr .p-4 />
+
+
+    <div class="container">
+        <div class="row row-cols-2">
+          <div class="col text-center text-danger"><h4>Cuca de Banana</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Mv7jGlOh5aE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+          <div class="col text-center text-danger"><h4>Strudel de Maçã</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Sha2ueGFy7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        </div>
+       
+          <div class="col text-center text-danger"><h4>Torta Crumble de Pêra</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cS6dzoU_N3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+        
+          <div class="col text-center text-danger"><h4>Sorvete de Manga</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Svnya4lrBR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+        </div>
+      </div>
+
+
+      <hr .p-4 />
+      <div class="p-5"></div>
+            
+      <!-- Button trigger modal -->
+      <div class="center">
+      <button type="button" class="btn btn-dark position-relative " data-bs-toggle="modal" data-bs-target="#exampleModal">
+       Eu quero! <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+      </button>
+     </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Deixe suas informações:</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="nome" onkeyup="validaNome()" placeholder="Seu nome">
+                    <label for="floatingInputGrid">Nome</label>
+                    <div id="txtNome"></div>
+                  </div>
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="email" onkeyup="validaEmail()" placeholder="nome@exemplo.com" >
+                    <label for="floatingInputGrid">Endereço de E-mail</label>
+                    <div id="txtEmail"></div>
+                  </div>
+
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Deixe sua mensagem aqui" id="assunto" onkeyup="validaAssunto()" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comentário</label>
+                    <div id="txtAssunto"></div>
+                  </div>
+                 <button type="button" onclick="enviar()" class="btn btn-outline-dark">Enviar informações</button>
+              </form>
+        </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+    <h3 class="text-center text-danger my-5">{ Deixe seu comentário }</h3>
+   </div>> 
+<hr .p-4 />
+
+    <hr />
+    <footer>
+        <div class="container">
+             <div class="text-center">
+                             
+            <a href="#" target="_blank"
+              ><img
+                width="50"
+                src="./assets/facebook.png"
+                alt="Logo Facebook"
+            /></a>
+            <a href="#" target="_blank">
+              <img
+              width="50"
+                src="./assets/instagram.png"
+                alt="Logo Instagram"
+            /></a>
+            </div>
+            </div>
+            
+            <hr>
+      <p class="text-center">Todos os direitos reservados: Quitanda VidaFrutas &copy;</p>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+
+  </body>
+</html>
