@@ -146,7 +146,7 @@ function entrar() {
     cepOk == true &&
     estadoOk == true
   ) {
-    window.location.href = "index.html";
+    window.location.href = "pagina.html";
   } else {
     alert("Preencha os campos do formulário corretamente!");
   }
