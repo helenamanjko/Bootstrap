@@ -114,7 +114,7 @@ function validaEstado() {
 }
 
 function enviar() {
-  if (nomeOk == true && emailOk == true && assuntoOk == true) {
+  if (nomeOk == true && assuntoOk == true) {
     alert("Formulário enviado com sucesso!");
   } else {
     alert("Preencha os campos do formulário corretamente!");
